@@ -1,0 +1,66 @@
+/* Base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Page heading */
+  .section-heading {
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 3rem 0 2rem;
+    color: #222;
+  }
+  
+  /* Row wrapper for cards */
+  .post-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+  }
+  
+  /* Individual post card */
+  .post-sample {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    max-width: 460px;
+    width: 100%;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Post image */
+  .post-sample img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Instagram account label */
+  .ig-account {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #777;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Post description */
+  .post-description {
+    font-size: 1.05rem;
+    color: #333;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
