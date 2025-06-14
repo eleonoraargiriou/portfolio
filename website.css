@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .website-intro {
+    padding: 2rem 1.5rem;
+    text-align: center;
+  }
+  
+  .section-heading {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    color: #222;
+  }
+  
+  .website-intro p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #555;
+  }
+  
+  /* Website sample block layout */
+  .website-sample {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* align top edges */
+    gap: 2rem;
+    padding: 2rem 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .sample-image {
+    flex: 1 1 300px;
+    max-width: 400px;
+  }
+  
+  .sample-image img {
+    width: 100%;
+    display: block; /* removes extra bottom spacing */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .sample-text {
+    flex: 2 1 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 0.5rem; /* Optional, for alignment fine-tuning */
+  }
+  
+  .sample-text h3 {
+    font-size: 1.4rem;
+    margin: 0 0 0.5rem;
+  }
+  
+  .website-copy {
+    white-space: pre-line; /* preserve line breaks */
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    margin: 0;
+  }
+  
