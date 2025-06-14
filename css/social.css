@@ -64,3 +64,74 @@ body {
     word-wrap: break-word;
   }
   
+  .ig-account {
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #385898; /* Instagram-style blue */
+    text-decoration: none;
+  }
+  
+  .ig-account:hover {
+    text-decoration: underline;
+  }
+
+  .post-meta {
+    font-style: italic;
+    color: #666;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
+    font-size: 0.95rem;
+  }
+
+  .section-subheading {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    font-size: 1.05rem;
+    color: #555;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+/* Styles for posts with two side-by-side images */
+.post-sample--two-images .image-row {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .post-sample--two-images .image-row img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .post-sample--two-images {
+    flex: 0 0 100%;
+    max-width: calc(2 * 460px + 2rem); /* assuming 460px is your normal card width */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .case-study-post {
+    border-left: 6px solid #ffa500;
+    background-color: #fffdf5;
+  }
+  
+  .case-study-label {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #b35600;
+    margin-bottom: 0.75rem;
+  }
+
+  .case-study-explanation {
+    font-size: 0.95rem;
+    background: #e6f2ff;
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    color: #333;
+  }
