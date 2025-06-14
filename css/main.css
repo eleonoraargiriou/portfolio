@@ -103,3 +103,19 @@ body {
   font-weight: bold;
   color: #222;
 }
+
+.back-home {
+  padding: 1.5rem 2rem;
+}
+
+.back-home a {
+  text-decoration: none;
+  color: #444;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.back-home a:hover {
+  color: #000;
+}
