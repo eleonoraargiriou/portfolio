@@ -48,14 +48,6 @@ body {
     margin-bottom: 1rem;
   }
   
-  /* Instagram account label */
-  .ig-account {
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: #777;
-    margin-bottom: 0.5rem;
-  }
-  
   /* Post description */
   .post-description {
     font-size: 1.05rem;
