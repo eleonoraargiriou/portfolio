@@ -69,3 +69,9 @@ body {
     margin: 0;
   }
   
+  .sample-description {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 0.8rem;
+    line-height: 1.4;
+  }
