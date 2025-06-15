@@ -75,3 +75,16 @@ body {
     margin-bottom: 0.8rem;
     line-height: 1.4;
   }
+
+  .ig-account {
+    display: inline-block;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #385898; /* Instagram-style blue */
+    text-decoration: none;
+  }
+  
+  .ig-account:hover {
+    text-decoration: underline;
+  }
